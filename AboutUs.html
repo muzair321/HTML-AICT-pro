@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+  <video autoplay muted loop id="bg">
+    <source src="bg3.mp4" type="video/mp4">
+  </video>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="home.html">Home</a>
+  <a href="Characters.html">Characters</a>
+  <a href="compare.html">Comparison</a>
+  <a href="AboutUs.html">About</a>
+</div>
+<span class="menu-btn" onclick="openNav()"><p class="menu" >&#9776;</p></span>
+
+  <div class="headDiv">
+      <h1>About Us</h1>
+      <h4>Meet The Team Behind CharacterVerse</h4>
+  </div>
+
+  <div class="bodyDiv">
+      <h2>The Members</h2>
+      <div class="members-container">
+        <div class="member-card">
+          <img src="https://i.pinimg.com/736x/eb/f9/f1/ebf9f137a965b06318e38a97c8003466.jpg" alt="Member 1">
+          <h3>Muhammad Uzair</h3>
+          <p>JavaScript And Structuring</p>
+        </div>
+        <div class="member-card">
+          <img src="https://i.pinimg.com/1200x/43/1e/0d/431e0d5c1894cbdaea28b4eb61643a23.jpg" alt="Member 2">
+          <h3>Umayyah Sajjad</h3>
+          <p>HTML</p>
+        </div>
+        <div class="member-card">
+          <img src="https://i.pinimg.com/736x/23/9f/06/239f060317fbf10487d687dc6d771285.jpg" alt="Member 3">
+          <h3>Minahil Qayyum</h3>
+          <p>CSS</p>
+        </div>
+      </div>
+    </div>
+
+<div class="footerDiv">
+  <h2>Contact</h2>
+  <pre>
+    Physical Address: <b><i>Shahzad, Park Rd, Tarlai Kalan, Islamabad 45550</i></b>
+    Contact Number:                                     <b><i>(051) 9247001</i></b>
+    Email Address:                            <b><i>muzairasim321@gmail.com</i></b>
+  </pre>
+</div>
+<script>
+        function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+</html>

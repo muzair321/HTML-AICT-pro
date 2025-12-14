@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Character Comparison</title>
+    <link rel="stylesheet" href="styleC.css">
+</head>
+<body class="Compare" style="background-image: url(https://i.pinimg.com/1200x/54/6d/d0/546dd0447239e84d5a9c0bdba3072aa1.jpg); background-repeat: no-repeat; background-size: cover;">
+    <div class="headDiv">
+        <h1>Character Comparison</h1>
+        <h4>Compare Your Favourite Characters</h4>
+    </div>
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="home.html">Home</a>
+  <a href="Characters.html">Characters</a>
+  <a href="compare.html">Comparison</a>
+  <a href="AboutUs.html">About</a>
+</div>
+ <span class="menu-btn" onclick="openNav()"><p class="menu" >&#9776;</p></span>
+ <div class="bodyDiv">
+    <section class="character-selection">
+        <h2>Select Two Characters</h2>
+        <div class="character-icons">
+            <div class="char-icon" data-char="char1">
+                <img src="https://i.pinimg.com/736x/d6/f6/80/d6f680b08868a2b24b55767760a47c09.jpg" alt="Shoya Ishida">
+                <p>Shoya Ishida</p>
+            </div>
+            <div class="char-icon" data-char="char2">
+                <img src="https://i.pinimg.com/1200x/28/f0/7c/28f07ce2c5230b35d787cd0edce80cc3.jpg" alt="Shoko Nishimiya">
+                <p>Shoko Nishimiya</p>
+            </div>
+            <div class="char-icon" data-char="char3">
+                <img src="https://i.pinimg.com/736x/03/9b/e8/039be87999efcfb75b9787091a6b2e1c.jpg" alt="Arlecchino">
+                <p>Arlecchino</p>
+            </div>
+            <div class="char-icon" data-char="char4">
+                <img src="https://i.pinimg.com/736x/6c/9f/40/6c9f4026bbbda226fd577b34f1ba32c5.jpg" alt="Lee Do">
+                <p>Lee Do</p>
+            </div>
+            <div class="char-icon" data-char="char5">
+                <img src="https://i.pinimg.com/1200x/55/68/7b/55687b3fa75ec27f7ce5959c173c6d8b.jpg" alt="Moon Baek">
+                <p>Moon Baek</p>
+            </div>
+            <div class="char-icon" data-char="char6">
+                <img src="https://i.pinimg.com/1200x/a6/39/34/a63934ccf4dfea90114fa547dc3a6f4b.jpg" alt="Daemon Targaryen">
+                <p>Daemon Targaryen</p>
+            </div>
+            <div class="char-icon" data-char="char7">
+                <img src="https://i.pinimg.com/736x/a4/b9/20/a4b920a028317a89fb8ee08fc5e3f0dd.jpg" alt="Dave Minion">
+                <p>Dave The Minion</p>
+            </div>
+            <div class="char-icon" data-char="char8">
+                <img src="https://i.pinimg.com/736x/76/a7/d4/76a7d4c01d15ea575e0fae2d1f7c89c3.jpg" alt="Gru">
+                <p>Gru</p>
+            </div>
+            <div class="char-icon" data-char="char9">
+                <img src="https://i.pinimg.com/736x/20/cf/de/20cfde372ae5a5c295e16d34cb97ad02.jpg" alt="Gojo Satorou">
+                <p>Gojo Satorou</p>
+            </div>
+            <div class="char-icon" data-char="char10">
+                <img src="https://i.pinimg.com/1200x/01/94/24/0194248941fb21315ee80b5ad8b311b8.jpg" alt="Hiccup Haddock">
+                <p>Hiccup Haddock</p>
+            </div>
+            <div class="char-icon" data-char="char11">
+                <img src="https://i.pinimg.com/1200x/e0/14/93/e01493a6a843ce0fc7929d6c3ac1e576.jpg" alt="Stoick The Vast">
+                <p>Stoick The Vast</p>
+            </div>
+            <div class="char-icon" data-char="char12">
+                <img src="https://i.pinimg.com/1200x/82/db/50/82db50e370d34363ad5cb5849058012c.jpg" alt="Lalo Salamanca">
+                <p>Lalo Salamanca</p>
+            </div>
+            <div class="char-icon" data-char="char13">
+                <img src="https://i.pinimg.com/736x/a0/0c/5b/a00c5bbb788369632b2fb09ed64e81b0.jpg" alt="Thorin Oakensheild">
+                <p>Thorin Oakensheild</p>
+            </div>
+            <div class="char-icon" data-char="char14">
+                <img src="https://i.pinimg.com/1200x/0e/e8/6f/0ee86fec2eb3c20e7593a6debce2590d.jpg" alt="Aragorn">
+                <p>Aragorn</p>
+            </div>
+            <div class="char-icon" data-char="char15">
+                <img src="https://i.pinimg.com/736x/e7/49/1d/e7491db1611ec77a89f5fcba4dc3057f.jpg" alt="Jessie Pinkman">
+                <p>Jessie Pinkman</p>
+            </div>
+            <div class="char-icon" data-char="char16">
+                <img src="https://i.pinimg.com/1200x/3b/de/c2/3bdec2a60cc69378a9ffa29b31222c6a.jpg" alt="Eleven">
+                <p>Eleven</p>
+            </div>
+            <div class="char-icon" data-char="char17">
+                <img src="https://i.pinimg.com/1200x/aa/cb/29/aacb29198dab853a48778cc739968b5a.jpg" alt="Star Lord">
+                <p>Star Lord</p>
+            </div>
+            <div class="char-icon" data-char="char18">
+                <img src="https://i.pinimg.com/1200x/aa/8c/cb/aa8ccbfc49fef2699aeb979bf4bb2d7f.jpg" alt="Tony Stark">
+                <p>Tony Stark</p>
+            </div>
+        </div>
+    </section>
+ </div>
+ <div class="compDiv">
+    <section class="comparison-table" >
+        <h2 >Comparison</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Attribute</th>
+                    <th id="char1-name">Character 1</th>
+                    <th id="char2-name">Character 2</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Weight</td>
+                    <td id="char1-weight"></td>
+                    <td id="char2-weight"></td>
+                </tr>
+                <tr>
+                    <td>Height</td>
+                    <td id="char1-height"></td>
+                    <td id="char2-height"></td>
+                </tr>
+                <tr>
+                    <td>Age</td>
+                    <td id="char1-age"></td>
+                    <td id="char2-age"></td>
+                </tr>
+                <tr>
+                    <td>Popularity</td>
+                    <td id="char1-popularity"></td>
+                    <td id="char2-popularity"></td>
+                </tr>
+                <tr>
+                    <td>Personality</td>
+                    <td id="char1-personality"></td>
+                    <td id="char2-personality"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    </div>
+<section class="comparison-comments">
+    <h2>Comparison Insights</h2>
+    <ul id="comparison-comments">
+    </ul>
+</section>
+<div class="footerDiv">
+<h2>Contact</h2>
+<pre>
+    Physical Address: <b><i>Shahzad, Park Rd, Tarlai Kalan, Islamabad 45550</i></b>
+    Contact Number:                                     <b><i>(051) 9247001</i></b>
+    Email Address:                            <b><i>muzairasim321@gmail.com</i></b>
+</pre>
+</div>
+    <script src="scriptC.js"></script>
+</body>
+</html>

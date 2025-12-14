@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HomePage</title>
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <video autoplay muted loop id="bg">
+    <source src="bg3.mp4" type="video/mp4">
+  </video>
+    <div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="home.html">Home</a>
+  <a href="Characters.html">Characters</a>
+  <a href="compare.html">Comparison</a>
+  <a href="AboutUs.html">About</a>
+</div>
+    <span class="menu-btn" onclick="openNav()"><p class="menu" >&#9776;</p></span>
+
+    <div class="headDiv">
+        <h1>CharacterVerse</h1>
+        <h4>Home Page</h4>
+    </div>
+    <div class="bodyDiv">
+    <div class="button-area">
+    <a href="Characters.html" class="img-btn">
+        <img src="https://i.pinimg.com/736x/46/db/9e/46db9ee3d4b3323457222bb8db7f3b42.jpg" alt="Characters">
+        <div class="overlay">
+        <p>Characters</p>
+    </div>
+    </a>
+
+    <a href="compare.html" class="img-btn">
+        <img src="https://i.pinimg.com/736x/e2/73/fa/e273fa07aa04fe8400499c9f31cde90d.jpg" alt="Comparison">
+        <div class="overlay">
+        <p>Compare Characters</p>
+    </div>
+    </a>
+
+    <a href="AboutUs.html" class="img-btn">
+        <img src="https://i.pinimg.com/1200x/96/fb/47/96fb470c953f784cbf646a2463664277.jpg" alt="know more about the team">
+        <div class="overlay">
+        <p>About Us</p>
+    </div>
+    </a>
+</div>
+
+</div>
+<div class="footerDiv">
+    <h2>Contact</h2>
+    <pre>
+    Physical Address: <b><i>Shahzad, Park Rd, Tarlai Kalan, Islamabad 45550</i></b>
+    Contact Number:                                     <b><i>(051) 9247001</i></b>
+    Email Address:                            <b><i>muzairasim321@gmail.com</i></b>
+    </pre>
+</div>
+<script>
+        function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+</body>
+</html>
